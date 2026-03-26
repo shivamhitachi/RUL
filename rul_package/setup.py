@@ -11,7 +11,7 @@ setup(
         "schedule",
         "scikit-learn",
         "joblib",
-        "influxdb-client-3"
+        "influxdb3-python"
     ],
     entry_points={
         "console_scripts": [
