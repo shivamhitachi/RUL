@@ -1,0 +1,73 @@
+{
+    "nodes": {
+        "LOC_DOCK_126": {
+            "x": -432.22,
+            "y": 492.54
+        },
+        "SPUR_BUF_S1": {
+            "x": -448.84,
+            "y": 505.0
+        },
+        "AISLE_LOC_K2K3": {
+            "x": -374.53,
+            "y": 531.55
+        },
+        "BAA_EMPTIES": {
+            "x": -408.45,
+            "y": 492.54
+        },
+        "LOC_DOCK_BAAE": {
+            "x": -401.51,
+            "y": 492.54
+        },
+        "STG_V3": {
+            "x": -393.98,
+            "y": 546.28
+        },
+        "STA_OP020": {
+            "x": -515.93,
+            "y": 511.0
+        },
+        "STG_X3": {
+            "x": -384.72,
+            "y": 546.18
+        }
+    },
+    "edges": [
+        {
+            "source": "STG_V3",
+            "target": "STG_X3",
+            "bidirectional": true
+        },
+        {
+            "source": "STG_X3",
+            "target": "AISLE_LOC_K2K3",
+            "bidirectional": true
+        },
+        {
+            "source": "AISLE_LOC_K2K3",
+            "target": "LOC_DOCK_BAAE",
+            "bidirectional": true
+        },
+        {
+            "source": "LOC_DOCK_BAAE",
+            "target": "BAA_EMPTIES",
+            "bidirectional": true
+        },
+        {
+            "source": "BAA_EMPTIES",
+            "target": "LOC_DOCK_126",
+            "bidirectional": true
+        },
+        {
+            "source": "LOC_DOCK_126",
+            "target": "SPUR_BUF_S1",
+            "bidirectional": true
+        },
+        {
+            "source": "STA_OP020",
+            "target": "SPUR_BUF_S1",
+            "bidirectional": true
+        }
+    ]
+}
